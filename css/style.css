@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background: linear-gradient(90deg, #2980b9, #6dd5fa);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 5px solid #3498db;
+}
+
+header h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+    color: #2980b9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #34495e;
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+input, button {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+#map {
+    height: 300px;
+    margin: 1rem 0;
+}
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.book {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buscar Libros</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Buscar Libros</h1>
+    <p>Ingrese el título o autor del libro que desea buscar:</p>
+  </header>
+
+  <div class="container">
+    <section id="books-section">
+      <h2>Buscar Libros</h2>
+      <input type="text" id="searchInput" placeholder="Buscar libros..." />
+      <button onclick="searchBooks()">Buscar</button>
+      <div id="books" class="book-list"></div>
+    </section>
+  </div>
+
+  <script src="https://www.googleapis.com/books/v1/volumes?q="></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
